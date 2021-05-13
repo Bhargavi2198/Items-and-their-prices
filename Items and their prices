@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	printf("pick an item: \n1. Pizza\n2. Burger\n3. Pasta\n4. French Fries\n5. Sandwich");
+	int choice=0;
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("you picked Pizza and its price is 239");
+			break;
+		case 2:
+			printf("you picked Burger and its price is 129");
+			break;
+		case 3:
+			printf("you picked Pasta and its price is 179");
+			break;
+		case 4:
+			printf("you picked French Fries and its price is 99");
+			break;
+		case 5:
+			printf("you picked Sandwich and its price is 149");
+			break;
+		default:
+			printf("Invalid choice");
+	}
+}
